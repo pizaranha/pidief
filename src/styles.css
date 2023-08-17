@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid #000;
+  margin-top: 20px;
+}
